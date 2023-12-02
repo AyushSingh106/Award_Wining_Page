@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100vw; 
+        overflow-x: hidden;
+        background-color: black;
+        cursor: none; font-family: 'Righteous', sans-serif;
+        font-family: 'Roboto Slab', serif;
+}
+#minicircle{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+     position: absolute;
+     height: 15px;
+     width: 15px;
+    background-color: white;
+     border-radius: 50%;
+     z-index: 999;
+}
+.bounding{
+    width: fit-content;
+    /* background-color: red; */
+     overflow: hidden; 
+}
+.boundingelem{
+    transform: translateY(100%);
+}
+#main{
+    width:100vw;
+    background-color: black; 
+    margin-bottom: 2vw;
+    bottom: 2vw;
+}
+#hero {
+    width: 100vw;
+    height: 100vh;
+    background-color:black;
+    color: white;
+} 
+#nav {
+    background-color: black;
+    z-index: 999;
+    width: 100vw;
+    padding: 35px 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+}
+#nav a{
+    color: white ;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+#heading{
+    padding: 90px 50px;
+    font-family: monument;
+}
+#heading h1{
+    font-size: 9vw;
+    font-family: "General Sans Medium ";
+line-height: 1;
+opacity: .7;
+}
+#secondh1{
+    margin-left: 18vh;
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+font-family: 'Righteous', sans-serif;
+font-family: 'Roboto Slab', serif;
+}
+.blocktext{
+display: flex;
+flex-direction: column;
+align-items: end;
+    width: fit-content;
+     /* background-color: rgb(36, 145, 240); */ */
+}
+.blocktext h5{
+    text-transform: capitalize;
+    text-align: end;
+    font-size: 15px;
+     /* background-color: blueviolet; */
+}
+#chotiheading{
+    /* background-color: rgb(194, 63, 63); */
+ display: flex;
+ flex-direction: column;
+ align-items: end;
+}
+#chotiheading h4{
+    padding:0px 50px;
+    text-align: right;
+    line-height: 2;
+    color: white;
+}
+#herofooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  padding: 35px 50px;
+}
+#herofooter a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+.herofooter_arrow{
+    font-size: 20px;
+}
+#second{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    padding-top:50px;
+    padding-left: 50px;
+}
+.elem{
+  opacity: 1;  
+    height:30%;
+    width: 80%;
+    display: flex;
+    padding: 3vw 0px;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;   
+     border-top: 1px solid white; 
+     border-bottom: 1px solid white;
+    position: relative;
+}
+.elem h1{
+    font-size: 10vh;
+}
+.elem img{
+    position: absolute;
+    height: 130%;
+     z-index: 999; 
+     pointer-events: none;
+      transform: translate(-50%,-50%); 
+      opacity: 0; 
+}
+#about{
+    margin-top: 8vw;
+    /* margin-bottom: 2vw; */
+    width:100vw;
+background-color: black;
+color: white;
+display: flex;
+    align-items: center;
+    justify-content:center;
+    padding:0px 10vw;
+}
+#about img{
+height: 200px;
+/* padding-left: 200px;  */
+}
+#textabout{
+padding-left: 4vw;
+line-height: 1.3;
+width: 40%;
+}
+#textabout h3{
+    margin-top:6px;
+    margin-bottom: 1.5vw;
+}
+#textabout a{
+    border:2px solid rgb(163, 161, 161);
+    border-radius:2vw;
+    color: white;
+    padding:.5vw 1vw;
+    font-size: large;
+    text-decoration: none;   
+}
+#last{
+    margin-top: 8vw;
+    padding:0px 50px;
+    background-color:black;
+    color: white;
+    text-transform: uppercase;
+}
+#last h4{
+    text-transform: uppercase;
+    opacity: .8;
+}
+#last h3{
+    margin-top: .5vw;
+}
+#footer{
+    margin-top: 4.5rem;
+    bottom: 2vw;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8rem;
+}
+#footer_left{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2vw;
+}
+#footer_right{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+gap: 1vw;
+font-size: small;
+}
